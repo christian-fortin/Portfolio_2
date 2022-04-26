@@ -1,13 +1,28 @@
 import '../App.css';
+import { Route, Routes, Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-<div className="square-container">
-    <div className="grid-container">
-      <div className="box-work">Resume</div>
-      <div className="box-education">Projects</div>
-      <div className="box-projects">Education</div>
-      <div className="box-moreAboutMe">About Me</div>
+<div id="square-container">
+    <div id="grid-container">
+
+
+
+    <div className="box-work"><Link to='/PastWork' className='homeLinks'>Resume</Link></div>
+
+
+
+    <div className="box-education"><Link to='/Projects' className='homeLinks'>Projects</Link></div>
+
+
+
+    <div className="box-projects"><Link to='/Education' className='homeLinks'>Education</Link></div>
+
+
+
+    <div className="box-moreAboutMe"><Link to='/MoreAboutMe' className='homeLinks'>About Me</Link></div>
+
+
     </div>
 </div>
   )

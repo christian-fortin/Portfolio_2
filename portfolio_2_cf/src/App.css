@@ -2,6 +2,21 @@
 /* NAV BAR */
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
+.nav-li{
+  color: black;
+  margin: 1rem;
+  font-size: larger;
+}
+
+.nav-li:hover{
+  color: blue;
+}
+
+a{
+  text-decoration: none;
+}
+
+
 ul {
   margin: 0;
   padding: 0;
@@ -10,14 +25,12 @@ ul {
 
 
 h2,
-h3,
-a {
+h3
+ {
 	color: #34495e;
 }
 
-a {
-	text-decoration: none;
-}
+
 
 
 
@@ -28,23 +41,21 @@ a {
 
 .main-nav {
 	margin-top: 5px;
-
 }
-.logo a,
-.main-nav a {
+.logo,
+.main-nav {
 	padding: 10px 15px;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
 }
 
-.main-nav a {
+.main-nav {
 	color: #34495e;
 	font-size: .99em;
-  margin: 0 2rem 0 0;
 }
 
-.main-nav a:hover {
+.main-nav {
 	color: #718daa;
 }
 
@@ -75,6 +86,7 @@ a {
 	.header,
 	.main-nav {
 		display: flex;
+    margin: none;
 	}
 	.header {
 		flex-direction: column;
@@ -106,14 +118,14 @@ a {
 
 /* HOME PAGE SQUARES */
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
-.square-container{
+#square-container{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh;
 }
 
-.grid-container{
+#grid-container{
   margin: auto;
   height:400px;
   background-color:#fff;
@@ -136,6 +148,10 @@ a {
     font-family:sans-serif;
     text-align: center;
 }
+.box-work:hover{
+  background-color: red;
+  font-size: 45px;
+}
 
 .box-education{
   background-color:#333;
@@ -148,6 +164,10 @@ a {
   font-size:40px;
   font-family:sans-serif;
   text-align: center;
+}
+.box-education:hover{
+  background-color: red;
+  font-size: 45px;
 }
 
 .box-projects{
@@ -162,9 +182,13 @@ a {
   font-family:sans-serif;
   text-align: center;
 }
+.box-projects:hover{
+  background-color: red;
+  font-size: 45px;
+}
 
 .box-moreAboutMe{
-  background-color:#333;
+  background-color: blue;
   padding:20px;
   border-radius:10px;
   color:#fff;
@@ -175,6 +199,19 @@ a {
   font-family:sans-serif;
   text-align: center;
 }
+.box-moreAboutMe:hover{
+  background-color: red;
+  font-size: 45px;
+}
+
+
+
+.homeLinks{
+  color: yellow;
+
+}
+
+
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
 
