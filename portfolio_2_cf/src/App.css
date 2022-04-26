@@ -215,3 +215,87 @@ h3
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
 
+
+
+/* PROJECT PAGE */
+/*============================================================================================================================================================================== ==============================================================================================================================================================================*/
+
+.projects_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.projectList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.projects-header{
+  margin: 2rem 0 2rem 0 ;
+  font-family: 'Raleway', monospace;
+  font-size: 60px;
+  color: black;
+  text-decoration: underline solid 4px;
+}
+
+.project-title{
+  font-family: 'Raleway', monospace;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline solid 4px;
+}
+
+.project-title:hover{
+  font-family: 'Raleway', monospace;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline solid 4px;
+  cursor: pointer;
+}
+.project_p{
+  margin: 1rem;
+  text-indent: 2rem;
+  font-family: 'Raleway', monospace;
+  font-size: 25px;
+  color: black;
+}
+.project-title-in-p{
+  font-style: italic;
+  font-weight: 1000;
+}
+
+.project-div{
+  margin: 3rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50rem;
+
+}
+
+/* .project-img-container{
+  width: 200px;
+  height: 100px;
+} */
+.project-img{
+  margin: 1rem 0 0 0;
+  width: 50rem;
+  height: 30rem;
+}
+
+
+
+
+
+
+
+
+/*============================================================================================================================================================================== ==============================================================================================================================================================================*/
+
