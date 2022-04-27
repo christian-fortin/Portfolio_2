@@ -37,6 +37,7 @@ h3
 .logo {
 	margin: 0 0 0 2rem;
 	font-size: 1.45em;
+  color: #333;
 }
 
 .main-nav {
@@ -237,7 +238,7 @@ h3
 }
 
 .projects-header{
-  margin: 2rem 0 2rem 0 ;
+  margin: 2rem 0 0 0 ;
   font-family: 'Raleway', monospace;
   font-size: 60px;
   color: black;
@@ -298,22 +299,57 @@ h3
 
 
 
-/* PROJECT PAGE */
+/* ABOUT ME PAGE */
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
-
-
-.aboutMeTitle{
+.aboutMeTitleDiv{
+  height: 7rem;
+  border: black solid 2px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.columContainerAboutMe{
+  border: black solid 2px;
+  display: flex;
+  width: 100vw;
+  height: 1000vh;
+}
+
+.colum1-AboutMe{
+  border: black solid 2px;
+  width: 45%;
+  margin: 0 0 0 4rem;
+  padding: 10rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.colum2-AboutMe{
+  border: black solid 2px;
+  width: 10%;
+}
+
+.colum3-AboutMe{
+  border: black solid 2px;
+  width: 45%;
+  margin: 0 4rem 0 0 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+/* The flip card container */
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
+  width: 500px;
+  height: 400px;
+  /* border: 1px solid #f1f1f1; */
+  margin: 5rem 0 5rem 0;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -353,3 +389,65 @@ h3
   color: white;
   transform: rotateY(180deg);
 }
+/*============================================================================================================================================================================== ==============================================================================================================================================================================*/
+
+
+
+
+
+
+
+/* EDUCATION PAGE */
+/*============================================================================================================================================================================== ==============================================================================================================================================================================*/
+
+.columContainerEducation{
+  border: black solid 2px;
+  display: flex;
+  width: 100vw;
+  height: 1000vh;
+}
+
+.educationTitle{
+  height: 7rem;
+  border: black solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colum1-education{
+  border: black solid 2px;
+  width: 45%;
+  margin: 0 0 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.colum2-education{
+  border: black solid 2px;
+  width: 45%;
+  margin: 0 0 0 4rem;
+  padding: 10rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.highschoolDiv-education{
+  border: red solid 2px;
+}
+
+.postCollegeDiv-education{
+  border: red solid 2px;
+}
+
+.collegeDiv-education{
+  border: red solid 2px;
+}
+
+
+/*============================================================================================================================================================================== ==============================================================================================================================================================================*/
