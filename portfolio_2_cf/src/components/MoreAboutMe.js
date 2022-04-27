@@ -12,11 +12,11 @@ const MoreAboutMe = () => {
 
     <div className='columContainerAboutMe'>
       <div className='colum1-AboutMe'>
-                {/* Card One Col 3 \/ ======================================================*/}
+                {/* Card One Col 1 \/ ======================================================*/}
       <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="img_avatar.png" alt="Avatar" style={{width:"300px", height:"300px"}}/>
+      <img src="images/xboxController.png" alt="xboxController" className='card2col3chessImageCover-xbox'/>
     </div>
     <div class="flip-card-back">
       <h1>John Doe</h1>
@@ -28,7 +28,24 @@ const MoreAboutMe = () => {
 {/* One Card /\ =========================================================*/}
 
 
-    {/* Card Two Col 3  \/ ======================================================*/}
+    {/* Card Two Col 1  \/ ======================================================*/}
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/chessGame.gif" alt="chessPuzzleCover" className='card2col3chessImageCover'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1>
+      <p>Architect and Engineer</p>
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+{/* One Card /\ =========================================================*/}
+
+
+
+    {/* Card Three Col 1  \/ ======================================================*/}
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
@@ -45,24 +62,7 @@ const MoreAboutMe = () => {
 
 
 
-    {/* Card Three Col 3  \/ ======================================================*/}
-    <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="img_avatar.png" alt="Avatar" style={{width:"300px", height:"300px"}}/>
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect and Engineer</p>
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div>
-{/* One Card /\ =========================================================*/}
-
-
-
- {/* Card Four Col 3  \/ ======================================================*/}
+ {/* Card Four Col 1  \/ ======================================================*/}
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">

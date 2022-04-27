@@ -33,7 +33,7 @@ const Education = () => {
 
 {/* <span><a href="https://www.rollins.edu/" target="_blank" rel="noopener noreferrer">Rollins College</a></span>, <span><a href="https://www.providence.edu/" target="_blank" rel="noopener noreferrer">Providence College</a></span>,  */}
 
-<p className="inParagraphPtag-education"><span><a href="https://www.pace.edu/" target="_blank" rel="noopener noreferrer" className="inParagraphLink-education">Pace University </a> </span> - A liberal arts University in the heart of downtown Manhattan, where I graduate with a Bachelors of Science in Biology and a 3.48 GPA. There I was mainly focused on plant biology, but enjoyed human biology as well.</p>
+<p className="inParagraphPtag-education"><span><a href="https://www.pace.edu/" target="_blank" rel="noopener noreferrer" className="inParagraphLink-education">Pace University </a> </span> - A liberal arts University in the heart of downtown Manhattan, where I graduate with a Bachelors of Science in Biology and a 3.48 <span><a href="https://smashthewalls.com/" target="_blank" rel="noopener noreferrer" className="random_insert">GPA</a></span>. There I was mainly focused on plant biology, but enjoyed human biology as well.</p>
 </div>
       </div>
       

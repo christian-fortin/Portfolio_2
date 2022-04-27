@@ -461,7 +461,7 @@ color: #616060;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #e3e0cf;
   color: black;
 }
 
@@ -470,6 +470,18 @@ color: #616060;
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.card2col3chessImageCover{
+  width: 400px;
+  height: 400px;
+  object-fit:fill;
+}
+
+.card2col3chessImageCover-xbox{
+  width: 400px;
+  height: 300px;
+  object-fit:fill;
 }
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
@@ -613,6 +625,19 @@ color: #616060;
 
 
 }
+
+.random_insert{
+text-decoration: none;
+margin: none;
+line-height: none;
+color: #4f4f4e;
+}
+.random_insert:hover{
+  text-decoration: none;
+  margin: none;
+  line-height: none;
+  color: whitesmoke;
+  }
 
 
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
