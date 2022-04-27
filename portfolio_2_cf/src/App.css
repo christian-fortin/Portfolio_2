@@ -1,8 +1,12 @@
+body {
+  background-color: #e3e0cf;
+  
+}
 
 /* NAV BAR */
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
-.nav-li{
+/* .nav-li{
   color: black;
   margin: 1rem;
   font-size: larger;
@@ -10,6 +14,29 @@
 
 .nav-li:hover{
   color: blue;
+} */
+
+.nav-li {
+  background-image: 
+  linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    #34495e 90%,
+    #34495e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 300ms;
+  margin: 1rem;
+  font-size: larger;
+  color: #34495e;
+  font-weight: bold;
+}
+
+.nav-li:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
 }
 
 a{
@@ -31,13 +58,25 @@ h3
 }
 
 
-
-
-
 .logo {
-	margin: 0 0 0 2rem;
-	font-size: 1.45em;
+  background-image: 
+  linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    #34495e 90%,
+    #34495e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 300ms;
   color: #333;
+  margin: 0 0 0 1rem;
+}
+
+.logo:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
 }
 
 .main-nav {
@@ -63,10 +102,10 @@ h3
 
 
 .header {
-	padding-top: .5em;
-	padding-bottom: .5em;
+	/* padding-top: .5em;
+	padding-bottom: .5em; */
 	border: 1px solid #a2a2a2;
-	background-color: #f4f4f4;
+	background-color: #c5d5cb;
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
@@ -129,7 +168,7 @@ h3
 #grid-container{
   margin: auto;
   height:400px;
-  background-color:#fff;
+  background-color:#e3e0cf;
   display:grid;
   grid-template-columns: 250px 250px;
   grid-row: auto auto;
@@ -138,10 +177,10 @@ h3
 }
 
 .box-work{
-    background-color:#333;
+    background-color:#f6f6f8;
     padding:20px;
     border-radius:10px;
-    color:#fff;
+    color:#34495e;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -150,15 +189,15 @@ h3
     text-align: center;
 }
 .box-work:hover{
-  background-color: red;
+  background-color: #333;
   font-size: 45px;
 }
 
 .box-education{
-  background-color:#333;
+  background-color:#c4c4c6;
   padding:20px;
   border-radius:10px;
-  color:#fff;
+  color:#34495e;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -167,12 +206,12 @@ h3
   text-align: center;
 }
 .box-education:hover{
-  background-color: red;
+  background-color: #333;
   font-size: 45px;
 }
 
 .box-projects{
-  background-color:#333;
+  background-color:#626263;
   padding:20px;
   border-radius:10px;
   color:#fff;
@@ -184,12 +223,12 @@ h3
   text-align: center;
 }
 .box-projects:hover{
-  background-color: red;
+  background-color: #333;
   font-size: 45px;
 }
 
 .box-moreAboutMe{
-  background-color: blue;
+  background-color: #939394;
   padding:20px;
   border-radius:10px;
   color:#fff;
@@ -201,17 +240,41 @@ h3
   text-align: center;
 }
 .box-moreAboutMe:hover{
-  background-color: red;
+  background-color: 
+  #333;
   font-size: 45px;
 }
 
 
 
 .homeLinks{
-  color: yellow;
-
+  color: #34495e;
 }
-
+/* ================ */
+#resumeLink-home{
+  color: #1c1f30;
+}
+#resumeLink-home:hover{
+  color: #cbb6a1;
+}
+/* ================ */
+#projectLink-home{
+color: #616060;
+}
+#projectLink-home:hover{
+  color: #cbb6a1;
+  }
+/* =============== */
+#educationLink-home{
+  color: #cbb6a1;
+}
+/* ================ */
+#aboutmeLink-home{
+  color: #4f4f4e;
+}
+#aboutmeLink-home:hover{
+  color: #cbb6a1;
+}
 
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
