@@ -5,6 +5,9 @@ const MoreAboutMe = () => {
     <div>
       <div className='aboutMeTitleDiv'>
       <h1 className='aboutMeTitle'>Get to Know Me</h1>
+      <div className='brandStatment-aboutMe'>
+      <h3>I have completed a B.S. in Biology,  training my scientific mind while using my work ethic and outside-the-box analytical thinking to solve problems. I have supplemented my Bachelor’s degree with a software engineering training certificate.  My scientific mind injects intellectual curiosity and creativity into software engineering.  I have strong communication, collaboration and multi-tasking skills. I am looking for an entry level job to combine the two skill sets I have built over the years.</h3>
+      </div>
       </div>
 
     <div className='columContainerAboutMe'>

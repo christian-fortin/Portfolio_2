@@ -30,7 +30,7 @@ body {
   transition: background-size 300ms;
   margin: 1rem;
   font-size: larger;
-  color: #34495e;
+  color: #333;
   font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ ul {
 h2,
 h3
  {
-	color: #34495e;
+	color: #333;
 }
 
 
@@ -91,12 +91,12 @@ h3
 }
 
 .main-nav {
-	color: #34495e;
+	color: #333;
 	font-size: .99em;
 }
 
 .main-nav {
-	color: #718daa;
+	color: #333;
 }
 
 
@@ -179,7 +179,7 @@ h3
 .box-work{
     background-color:#f6f6f8;
     padding:20px;
-    border-radius:10px;
+    border-radius:10px 0 0 0;
     color:#34495e;
     display:flex;
     align-items:center;
@@ -190,13 +190,13 @@ h3
 }
 .box-work:hover{
   background-color: #333;
-  font-size: 45px;
+  /* font-size: 45px; */
 }
 
 .box-education{
   background-color:#c4c4c6;
   padding:20px;
-  border-radius:10px;
+  border-radius:0 10px 0 0;
   color:#34495e;
   display:flex;
   align-items:center;
@@ -207,13 +207,13 @@ h3
 }
 .box-education:hover{
   background-color: #333;
-  font-size: 45px;
+  /* font-size: 45px; */
 }
 
 .box-projects{
   background-color:#626263;
   padding:20px;
-  border-radius:10px;
+  border-radius:0 0 0 10px;
   color:#fff;
   display:flex;
   align-items:center;
@@ -224,13 +224,13 @@ h3
 }
 .box-projects:hover{
   background-color: #333;
-  font-size: 45px;
+  /* font-size: 45px; */
 }
 
 .box-moreAboutMe{
   background-color: #939394;
   padding:20px;
-  border-radius:10px;
+  border-radius:0 0 10px 0;
   color:#fff;
   display:flex;
   align-items:center;
@@ -242,7 +242,7 @@ h3
 .box-moreAboutMe:hover{
   background-color: 
   #333;
-  font-size: 45px;
+  /* font-size: 45px; */
 }
 
 
@@ -256,6 +256,7 @@ h3
 }
 #resumeLink-home:hover{
   color: #cbb6a1;
+  font-size: 45px;
 }
 /* ================ */
 #projectLink-home{
@@ -263,10 +264,14 @@ color: #616060;
 }
 #projectLink-home:hover{
   color: #cbb6a1;
+  font-size: 45px;
   }
 /* =============== */
 #educationLink-home{
   color: #cbb6a1;
+}
+#educationLink-home:hover{
+  font-size: 45px;
 }
 /* ================ */
 #aboutmeLink-home{
@@ -274,6 +279,7 @@ color: #616060;
 }
 #aboutmeLink-home:hover{
   color: #cbb6a1;
+  font-size: 45px;
 }
 
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
@@ -365,25 +371,38 @@ color: #616060;
 /* ABOUT ME PAGE */
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 .aboutMeTitleDiv{
-  height: 7rem;
-  border: black solid 2px;
+  margin: 4rem  0 0 0;
+  height: 15rem;
+/* border: black solid 2px;   */
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  color: #333;
+}
+.aboutMeTitle{
+  font-size: 45px;
+  margin: 0;
+}
+
+.brandStatment-aboutMe{
+  margin: 0 25% 0 25%;
+  text-indent: 50px;
+  line-height: 1.5;
 }
 
 .columContainerAboutMe{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   display: flex;
   width: 100vw;
   height: 1000vh;
 }
 
 .colum1-AboutMe{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   width: 45%;
   margin: 0 0 0 4rem;
-  padding: 10rem 0 0 0;
+  padding: 6rem 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -391,12 +410,12 @@ color: #616060;
 }
 
 .colum2-AboutMe{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   width: 10%;
 }
 
 .colum3-AboutMe{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   width: 45%;
   margin: 0 4rem 0 0 ;
   display: flex;
@@ -412,7 +431,7 @@ color: #616060;
   width: 500px;
   height: 400px;
   /* border: 1px solid #f1f1f1; */
-  margin: 5rem 0 5rem 0;
+  margin: 2rem 0 5rem 0;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -464,22 +483,25 @@ color: #616060;
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
 
 .columContainerEducation{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   display: flex;
   width: 100vw;
   height: 1000vh;
 }
 
-.educationTitle{
+#educationTitle{
   height: 7rem;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 45px;
+  color: #333;
+  text-decoration: solid underline 5px #333;
 }
 
 .colum1-education{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   width: 45%;
   margin: 0 0 0 4rem;
   display: flex;
@@ -489,10 +511,10 @@ color: #616060;
 }
 
 .colum2-education{
-  border: black solid 2px;
+  /* border: black solid 2px; */
   width: 45%;
   margin: 0 0 0 4rem;
-  padding: 10rem 0 0 0;
+  padding: 7rem 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -501,15 +523,95 @@ color: #616060;
 
 
 .highschoolDiv-education{
-  border: red solid 2px;
+  /* border: red solid 2px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:  0 8rem 10rem 8rem;
+
 }
 
 .postCollegeDiv-education{
-  border: red solid 2px;
+  /* border: red solid 2px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  margin: 0 8rem 0 8rem;
 }
 
 .collegeDiv-education{
-  border: red solid 2px;
+  /* border: red solid 2px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 9rem 8rem 0 8rem;
+  color: #333;
+}
+
+
+.educationSection-title{
+  margin: 0;
+  color: #333;
+  font-size: 30px;
+  text-decoration: solid underline 5px #333;
+}
+
+.inParagraphLink-education{
+  text-decoration: none;
+  font-size: 25px;
+  color:#333;
+}
+.inParagraphLink-education:hover{
+  text-decoration: none;
+  font-size: 25px;
+  color:whitesmoke;
+
+}
+
+.inParagraphPtag-education{
+  line-height: 1.5;
+  color: #4f4f4e;
+  font-weight: 700;
+}
+
+
+@media (min-width: 769px) {
+  /* .columContainerEducation{
+    display: flex;
+  } */
+
+  /* .highschoolDiv-education{
+    border: red solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .postCollegeDiv-education{
+    border: red solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  .collegeDiv-education{
+    border: red solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: #333;
+  } */
+
+}
+
+@media (min-width: 1025px) {
+
+
 }
 
 
