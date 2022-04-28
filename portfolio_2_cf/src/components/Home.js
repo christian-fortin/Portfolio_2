@@ -22,7 +22,10 @@ const Home = () => {
 
     <div className="box-moreAboutMe"><Link to='/MoreAboutMe' className='homeLinks' id='aboutmeLink-home'>About Me</Link></div>
 
-
+    <div className='gif-holder'>
+          <a href="https://farm.one/" target="_blank" rel="noopener noreferrer"><img src="images/plantGrowing.gif" alt="plant gif" className='plantGif'/></a>
+          
+        </div>
     </div>
 </div>
   )

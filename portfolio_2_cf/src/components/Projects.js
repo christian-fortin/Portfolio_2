@@ -40,7 +40,7 @@ const Projects = () => {
           ingredients, a name, and even have an image for plating ideas.
         </p>
         <div className="project-img-container">
-          <img className="project-img" src="/Screen Shot 2022-04-14 at 10.54.50 AM.png" alt="foodblog" />
+          <img className="project-img" src="https://github.com/christian-fortin/SEIR_Project_2/raw/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.50%20AM.png?raw=true" alt="foodblog" />
         </div>
       </div>
 
@@ -59,7 +59,7 @@ const Projects = () => {
           interests, songs, albums, artists, and more.
         </p>
         <div className="project-img-container">
-          <img className="project-img" src="/LoFive.png" alt="LoFive img" />
+         <img className="project-img" id='project-img-lofive' src="images/loFiveImg.png" alt="LoFive img"/>
         </div>
       </div>
 
@@ -84,7 +84,7 @@ const Projects = () => {
         <div className="project-img-container">
           <img
             className="project-img"
-            src="/whatIsThis.png"
+            src="https://github.com/christian-fortin/Project_4/raw/main/public/Screen%20Shot%202022-04-06%20at%2010.14.27%20AM.png?raw=true"
             alt="whatIsThis"
           />
         </div>
