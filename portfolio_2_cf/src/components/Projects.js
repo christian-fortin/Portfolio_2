@@ -73,7 +73,7 @@ const Projects = () => {
           <h4 className="project-title">WhatIsThis?</h4>
         </a>
         <p className="project_p">
-          {' '}
+
           <span className="project-title-in-p"> "WhatIsThis?" </span> is
           meant for randomness, entertainment and sharing. It is inspired by
           the website "stumbleUpon" which let you click a button and you
