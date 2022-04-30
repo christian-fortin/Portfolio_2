@@ -316,6 +316,13 @@ color: #616060;
   margin: 0;
 }
 
+#project-title-construction-mode{
+  font-size: 45px;
+  color: #333;
+  text-decoration: solid line-through 5px #333;
+  margin: 0;
+}
+
 .project-title:hover{
   cursor: pointer;
   color: whitesmoke;
@@ -630,6 +637,8 @@ color: #616060;
   line-height: 1.5;
   color: #4f4f4e;
   font-weight: 700;
+  /* background-image: url("../public/images/chalkBackground.png"); */
+  background-color: white;
 }
 
 

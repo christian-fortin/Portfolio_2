@@ -31,12 +31,13 @@ const Projects = () => {
       </div>
 
       <div className="project-div">
-        <a href="https://my-food-blog-410.herokuapp.com/sessions/register" target="_blank" rel="noopener noreferrer">
-        <h4 className="project-title">MyFoodBlog</h4>
+        <a href target="_blank" rel="noopener noreferrer">
+        <h4 className="project-title" id='project-title-construction-mode'>MyFoodBlog</h4>
+        <h2>! Under Construction !</h2>
         </a>
         <p className="project_p">
           MyFoodBlog is a personal application for a user to track homemade
-          dishes they create. They can keep track of the recepie,
+          dishes they create. They can keep track of the recipe,
           ingredients, a name, and even have an image for plating ideas.
         </p>
         <div className="project-img-container">
