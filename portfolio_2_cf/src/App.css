@@ -396,7 +396,7 @@ color: #616060;
 
 
 .aboutMeTitleDiv{
-  margin: 4rem  0 0 0;
+  margin: 5rem  0 0 0;
   height: 15rem;
 /* border: black solid 2px;   */
   display: flex;
@@ -555,10 +555,10 @@ color: #616060;
 }
 
 
-@media (max-width: 1165px) {
+@media (max-width: 1000px) {
 
   .aboutMePageContainer{
-    margin-top: 4rem;
+    margin-top: 10rem;
   }
   .columContainerAboutMe{
     /* border: black solid 2px; */
