@@ -2,7 +2,7 @@ import React from 'react'
 
 const MoreAboutMe = () => {
   return (
-    <div>
+    <div className='aboutMePageContainer'>
       <div className='aboutMeTitleDiv'>
       <h1 className='aboutMeTitle'>Get to Know Me</h1>
       <div className='brandStatment-aboutMe'>
