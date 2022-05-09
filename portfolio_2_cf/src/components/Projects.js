@@ -123,16 +123,16 @@ const Projects = () => {
         </a>
         <p className="project_p">
 
-          <span className="project-title-in-p"> "Tattoo" </span> is
-          a personal website and storage place for some thoughts and ideas. It is mainly a practice in website design as well as I wanted to learn how to deploy a simple project using AWS.
+          <span className="project-title-in-p"> "Tattoo Blog" </span> is
+          a personal website and storage place for some thoughts and ideas. It is mainly a practice in website design as well as I wanted to learn more about AWS and how to deploy a simple project using AWS.
           
         </p>
         <div className="project-img-container">
           <img
             className="project-img"
             id='project-img-tattoo'
-            src="https://github.com/christian-fortin/Tattoo-Ideas/blob/main/chess%20abstract.png?raw=true"
-            alt="whatIsThis"
+            src="https://github.com/christian-fortin/Tattoo-Ideas/blob/main/images/chess%20abstract.png?raw=true"
+            alt="tattoo example"
           />
         </div>
       </div>
