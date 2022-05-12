@@ -37,7 +37,7 @@ const Projects = () => {
       <div className="project-div">
         <a href target="_blank" rel="noopener noreferrer">
         <h4 className="project-title" id='project-title-construction-mode'>MyFoodBlog</h4>
-        <h2>! Under Construction !</h2>
+        {/* <h2>! Under Construction !</h2> */}
         </a>
         <p className="project_p">
           MyFoodBlog is a personal application for a user to track homemade
