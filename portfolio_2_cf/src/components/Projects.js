@@ -35,8 +35,8 @@ const Projects = () => {
       </div>
 
       <div className="project-div">
-        <a href target="_blank" rel="noopener noreferrer">
-        <h4 className="project-title" id='project-title-construction-mode'>MyFoodBlog</h4>
+        <a href='https://my-food-blog-410.herokuapp.com/sessions/register' target="_blank" rel="noopener noreferrer">
+        <h4 className="project-title" >MyFoodBlog</h4>
         {/* <h2>! Under Construction !</h2> */}
         </a>
         <p className="project_p">
