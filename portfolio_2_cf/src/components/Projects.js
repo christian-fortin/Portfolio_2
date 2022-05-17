@@ -136,6 +136,38 @@ const Projects = () => {
           />
         </div>
       </div>
+
+
+      <div className="project-div">
+        <a
+          href="https://pern-chaos.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          alt="link to website"
+        >
+          <h4 className="project-title">Chaos</h4>
+        </a>
+        <p className="project_p">
+
+          <span className="project-title-in-p"> "Chaos" </span> is a type of social media application where anyone can say anything. I put out QR code stickers of the project in the city in random places and was curious what would make it onto the website. It purposely has no sessions because when enough people are using it it would be chaos for everyone to edit and delete and create any post.
+          
+        </p>
+        <div className="project-img-container">
+          <img
+            className="project-img"
+            id='project-img-chaos'
+            src="/images/pern_chaos.gif"
+            alt="chaos_picture"
+          />
+        </div>
+      </div>
+
+
+
+
+      
+
+
     </div>
   </div>
   )
