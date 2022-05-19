@@ -150,6 +150,10 @@ const Projects = () => {
         <p className="project_p">
 
           <span className="project-title-in-p"> "Chaos" </span> is a type of social media application where anyone can say anything. I put out QR code stickers of the project in the city in random places and was curious what would make it onto the website. It purposely has no sessions because when enough people are using it it would be chaos for everyone to edit and delete and create any post.
+          <br/>
+          <br/>
+
+          From a technical view point this project was used to freshen and enhance my understanding of back end API's as I did most of it from memory/gut-feeling/google instead of following along with a video. I also wanted to learn more about using PSQL as a backend database instead of MongoDB.
           
         </p>
         <div className="project-img-container">
