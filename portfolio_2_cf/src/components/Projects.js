@@ -114,7 +114,7 @@ const Projects = () => {
 
       <div className="project-div">
         <a
-          href="http://tattoo-blog-410.s3-website-us-east-1.amazonaws.com"
+          href="https://main.d39ag7lm8rdw70.amplifyapp.com/"
           target="_blank"
           rel="noopener noreferrer"
           alt="link to website"
@@ -124,7 +124,7 @@ const Projects = () => {
         <p className="project_p">
 
           <span className="project-title-in-p"> "Tattoo Blog" </span> is
-          a personal website and storage place for some thoughts and ideas. It is mainly a practice in website design as well as I wanted to learn more about AWS and how to deploy a simple project using AWS.
+          a personal website and storage place for some thoughts and ideas. It is mainly a practice in website design as well as I wanted to learn more about AWS and how to deploy a simple project using AWS. For this one I used AWS Amplify. I previously used S3 but found Amplify to be easier. 
           
         </p>
         <div className="project-img-container">
