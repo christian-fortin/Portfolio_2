@@ -90,7 +90,8 @@ h3
 }
 .logo,
 .main-nav {
-	padding: 10px 15px;
+	padding: 10px 15px 0 15px;
+  margin-bottom: 10px;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
@@ -401,6 +402,7 @@ height: 800px;
 }
 
 
+
 .aboutMeTitleDiv{
   margin: 5rem  0 0 0;
   height: 15rem;
@@ -424,18 +426,30 @@ height: 800px;
   font-size: 18px;
 }
 
+.creativity-link-weirdcase{
+  text-decoration: none;
+  color: #333;
+}
+
+.creativity-link-weirdcase:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
 .columContainerAboutMe{
   /* border: black solid 2px; */
+  margin: 3rem 0 3rem 0;
   display: flex;
   width: 100vw;
-  height: 1000vh;
+  height: 100rem;
 }
 
 .colum1-AboutMe{
   /* border: black solid 2px; */
   width: 45%;
-  margin: 0 0 0 4rem;
-  padding: 6rem 0 0 0;
+  margin: 0 0 0 2rem;
+  padding: 00 0 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -450,7 +464,7 @@ height: 800px;
 .colum3-AboutMe{
   /* border: black solid 2px; */
   width: 45%;
-  margin: 0 4rem 0 0 ;
+  margin: 0 2rem 0 0 ;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -461,10 +475,10 @@ height: 800px;
 /* The flip card container */
 .flip-card {
   background-color: transparent;
-  width: 500px;
+  width: 700px;
   height: 400px;
   /* border: 1px solid #f1f1f1; */
-  margin: 2rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -500,19 +514,20 @@ height: 800px;
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #c5d5cb;
-  color: white;
+  background-color: #e3e0cf;
+  color: #4f4f4e;
+  font-size: 20px;
   transform: rotateY(180deg);
 }
 
 .cardHeader{
-
+color: #333;
 }
 
 .cardParagraph{
   margin: 0 10% 0 10%;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .card2col3chessImageCover{
@@ -625,7 +640,7 @@ height: 800px;
   /* border: black solid 2px; */
   display: flex;
   width: 100vw;
-  height: 1000vh;
+  height: 100rem;
 }
 
 #educationTitle{
@@ -653,7 +668,7 @@ height: 800px;
   /* border: black solid 2px; */
   width: 45%;
   margin: 0 0 0 4rem;
-  padding: 7rem 0 0 0;
+  padding: 20rem 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -813,4 +828,6 @@ height: 800px;
 
 
 /*============================================================================================================================================================================== ==============================================================================================================================================================================*/
+
+
 
