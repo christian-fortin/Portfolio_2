@@ -567,6 +567,7 @@ color: #333;
     bottom:0px;
     left:46.8%;
   cursor: default;
+  z-index: 100;
 }
 
 
