@@ -317,6 +317,17 @@ color: #616060;
   color: #333;
   text-decoration: solid underline 5px #333;
 }
+.sub-projects-header{
+  margin: 0 0 0 0 ;
+  font-size: 15px;
+  font-family: Overpass;
+  color: #333;
+  text-decoration: solid underline 5px #333;
+}
+.sub-projects-header:hover{
+  color: whitesmoke;
+  text-decoration: solid underline 5px whitesmoke;
+}
 
 .project-title{
   font-size: 45px;
@@ -367,6 +378,13 @@ color: #616060;
   width: 200px;
   height: 100px;
 } */
+
+.project-img-container-weirdCase{
+  width: 40rem;
+  height: 20rem;
+
+}
+
 .project-img{
   margin: 1rem 0 0 0;
   width: 50rem;
@@ -606,6 +624,15 @@ margin: 2rem 0 5rem 0;
   text-decoration: none;
   width: 100%;
   z-index: 1;
+}
+
+.plantGif-aboutMe{
+  position:absolute;
+  top: 10rem;
+  left: 5rem;
+  width: 100px;
+  height: 150px;
+  cursor: default;
 }
 
 

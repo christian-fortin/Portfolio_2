@@ -137,6 +137,15 @@ const MoreAboutMe = () => {
 
 
       </div>
+      <div className="gif-holder">
+        <a href="https://farm.one/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="images/plantGrowing.gif"
+            alt="plant gif"
+            className="plantGif-aboutMe"
+          />
+        </a>
+      </div>
     </div>
   );
 };

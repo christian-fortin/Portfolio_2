@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
     <div className="projects_container">
-    <h1 className="projects-header">Projects</h1>
+    <h1 className="projects-header"> <a   className="projects-header" href="https://github.com/christian-fortin?tab=repositories" target="_blank" rel="noopener noreferrer">Projects</a></h1>
+    <Link to='/MoreProjects'><h4 className="sub-projects-header"> All Projects</h4></Link>
     <div className="projectList">
       <div className="project-div">
         <a
@@ -53,28 +55,6 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="project-div">
-        <a
-          href="https://lo-five-frontend.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          alt="link to website"
-        >
-          <h4 className="project-title">LoFive</h4>
-        </a>
-        <p className="project_p">
-          <span className="project-title-in-p"> "LoFive" </span> is a social
-          media application for users to share and post about music
-          interests, songs, albums, artists, and more.
-          <br/>
-          <br/>
-
-          <span className='indent'>This project was meant to test my JavaScript React, HTML, CSS, as well as designing an API with RESTful routes and a back-end. For this group project my group chose to use MongoDB and Express, a full MERN stack. In extension to the project requirements we created user authentication, and multiple external API's.</span>
-        </p>
-        <div className="project-img-container">
-         <img className="project-img" id='project-img-lofive' src="images/loFiveImg.png" alt="LoFive img"/>
-        </div>
-      </div>
 
       <div className="project-div">
         <a
@@ -111,33 +91,6 @@ const Projects = () => {
 
 
 
-
-      <div className="project-div">
-        <a
-          href="https://main.d39ag7lm8rdw70.amplifyapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          alt="link to website"
-        >
-          <h4 className="project-title">Tattoo Blog</h4>
-        </a>
-        <p className="project_p">
-
-          <span className="project-title-in-p"> "Tattoo Blog" </span> is
-          a personal website and storage place for some thoughts and ideas. It is mainly a practice in website design as well as I wanted to learn more about AWS and how to deploy a simple project using AWS. For this one I used AWS Amplify. I previously used S3 but found Amplify to be easier. 
-          
-        </p>
-        <div className="project-img-container">
-          <img
-            className="project-img"
-            id='project-img-tattoo'
-            src="https://github.com/christian-fortin/Tattoo-Ideas/blob/main/images/chess%20abstract.png?raw=true"
-            alt="tattoo example"
-          />
-        </div>
-      </div>
-
-
       <div className="project-div">
         <a
           href="https://pern-chaos.herokuapp.com/"
@@ -164,6 +117,15 @@ const Projects = () => {
             alt="chaos_picture"
           />
         </div>
+      </div>
+      <div className="gif-holder">
+        <a href="https://farm.one/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="images/plantGrowing.gif"
+            alt="plant gif"
+            className="plantGif-aboutMe"
+          />
+        </a>
       </div>
     </div>
 
