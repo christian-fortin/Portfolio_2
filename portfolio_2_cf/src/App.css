@@ -403,6 +403,254 @@ height: 800px;
 
 
 
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  /* font-size: 100px; */
+  height: 40rem;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform .5s;
+  width: 100%;
+}
+
+.carousel__nav {
+  /* padding: 1.25rem .5rem; */
+  display: flex;
+  justify-content: center;
+margin-bottom: 5rem;
+margin: 2rem 0 5rem 0;
+}
+
+
+.slider-nav {
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  color: #000;
+  display: inline-flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: .5rem;
+  margin: 0 1rem 0 1rem;
+  position: relative;
+  text-decoration: none;
+  width: 1.5rem;
+}
+
+.aboutMe_h1_title{
+  font-size: 3rem;
+  color: #333;
+}
+.aboutMe_p_description{
+  margin: 0 15% 0 15%;
+  color: #333;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1000px) {
+  .aboutMe_p_description{
+    margin: 0 0% 0 0%;
+    color: #333;
+    font-size: 1.5rem;
+  }
+}
+
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.slide-1 {
+  background-color: #fdc;
+}
+#inner_div_slide_1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-2 {
+  background-color: #bfd;
+}
+#inner_div_slide_2{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+  align-items: center;
+  margin: 0 .5rem 0 .5rem;
+}
+.aboutMe_p_description-chess{
+    color: #333;
+    font-size: 1.5rem;
+}
+.aboutMe_h1_title-chess{
+  font-size: 3rem;
+  color: #333;
+  margin: 0 1rem 0 1rem;
+}
+.chess-description-div{
+  margin: 0 1rem 0 1rem;
+}
+@media only screen and (max-width: 1000px) {
+  .aboutMe_p_description-chess{
+    color: #333;
+    font-size: .5;
+}
+.aboutMe_h1_title-chess{
+  font-size: 2rem;
+  color: #333;
+  margin: 0 1rem 0 1rem;
+}
+}
+
+.slide-3 {
+  background-color: #cdf;
+}
+
+.slide-4 {
+  background-color: #dca;
+  
+}
+
+.slide-5 {
+  background-color: #ffc;
+}
+.card3col3ImageCover-history{
+  margin: 0 0 0 0;
+  width: 470px;
+  height: 350px;
+}
+.aboutMe_h1_title-history{
+  font-size: 3rem;
+  color: #333;
+  margin: 0 1rem 0 1rem;
+}
+.aboutMe_p_description-history{
+  margin: 0 10% 0 10%;
+  color: #333;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1000px) {
+  .aboutMe_p_description-history{
+    margin:.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+.carousel__skip-link {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+.carousel__skip-link:focus {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  height: 680px;
+  justify-content: center;
+  opacity: .8;
+  text-decoration: none;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .aboutMeTitleDiv{
   margin: 5rem  0 0 0;
   height: 15rem;
@@ -420,7 +668,7 @@ height: 800px;
 }
 
 .brandStatment-aboutMe{
-  margin: 0 25% 0 25%;
+  margin: 0 20% 3rem 20%;
   text-indent: 50px;
   line-height: 1.5;
   font-size: 18px;
@@ -442,7 +690,7 @@ height: 800px;
   margin: 3rem 0 3rem 0;
   display: flex;
   width: 100vw;
-  height: 100rem;
+  height: 50rem;
 }
 
 .colum1-AboutMe{
@@ -571,16 +819,11 @@ color: #333;
 }
 
 
-.card3col3ImageCover-history{
-  width: 470px;
-  height: 350px;
-}
-
 
 @media (max-width: 1000px) {
 
   .aboutMePageContainer{
-    margin-top: 10rem;
+    margin-top: 3rem;
   }
   .columContainerAboutMe{
     /* border: black solid 2px; */
