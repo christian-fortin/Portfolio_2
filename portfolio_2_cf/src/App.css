@@ -4,6 +4,7 @@ body {
 }
 
 *{
+  
   font-family: Overpass;
 }
 
@@ -499,7 +500,7 @@ margin: 2rem 0 5rem 0;
 }
 
 .slide-1 {
-  background-color: #fdc;
+  background-color: rgb(242, 176, 144);
 }
 #inner_div_slide_1{
   width: 100%;
