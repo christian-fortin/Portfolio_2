@@ -26,7 +26,7 @@ const Projects = () => {
           <br/>
           <br/>
 
-          <span className='indent'>This project was meant to test my JavaScript, HTML, and CSS skills.</span>
+          <span className='indent'>This project was meant to test my JavaScript, HTML, and CSS skills in making a game.</span>
         </p>
         <div className="project-img-container">
           <img
@@ -37,7 +37,7 @@ const Projects = () => {
       </div>
 
       <div className="project-div">
-        <a href='https://my-food-blog-410.herokuapp.com/sessions/register' target="_blank" rel="noopener noreferrer">
+        <a href='https://my-food-blog-410.herokuapp.com/' target="_blank" rel="noopener noreferrer">
         <h4 className="project-title" >MyFoodBlog</h4>
         {/* <h2>! Under Construction !</h2> */}
         </a>
@@ -48,7 +48,7 @@ const Projects = () => {
           <br/>
           <br/>
 
-          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and express. In extension to the project requirements I learned how to apply user authentication using Bcrypt and how to upload an image using Multer  skills.</span>
+          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and express. In extension to the project requirements I learned how to apply user authentication using Bcrypt and how to upload an image using Multer  skills. Currently the user authentication is bypassed for use-ability of the application.</span>
         </p>
         <div className="project-img-container">
           <img className="project-img" src="https://github.com/christian-fortin/SEIR_Project_2/raw/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.50%20AM.png?raw=true" alt="foodblog" />
@@ -58,7 +58,7 @@ const Projects = () => {
 
       <div className="project-div">
         <a
-          href="https://immense-falls-65855.herokuapp.com/login"
+          href="https://immense-falls-65855.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
           alt="link to website"
@@ -76,7 +76,7 @@ const Projects = () => {
           <br/>
           <br/>
 
-          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting. </span>
+          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting. Currently the user authentication is bypassed for use-ability of the application. </span>
         </p>
         <div className="project-img-container">
           <img
