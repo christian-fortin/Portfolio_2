@@ -76,7 +76,7 @@ const Projects = () => {
           <br/>
           <br/>
 
-          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting. Currently the user authentication is bypassed for use-ability of the application. </span>
+          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting. To enter the application use: <strong>User:</strong> 123@gmail.com, <strong>Password:</strong> 123</span>
         </p>
         <div className="project-img-container">
           <img
