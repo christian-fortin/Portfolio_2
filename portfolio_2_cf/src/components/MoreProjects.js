@@ -176,12 +176,15 @@ const MoreProjects = () => {
           <br/>
           <br/>
 
-          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting.To enter the application use: <strong>User:</strong> 123@gmail.com, <strong>Password:</strong> 123</span>
+          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting.To enter the application use: 
+          <br/>
+          
+          <strong>User:</strong> 123@gmail.com, <strong>Password:</strong> 123</span>
         </p>
         <div className="project-img-container">
           <img
             className="project-img"
-            src="https://github.com/christian-fortin/Project_4/raw/main/public/Screen%20Shot%202022-04-06%20at%2010.14.27%20AM.png?raw=true"
+            src="https://github.com/christian-fortin/Project_4/blob/main/public/whatIsThisGifGood.gif?raw=true"
             alt="whatIsThis"
           />
         </div>

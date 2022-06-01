@@ -36,59 +36,6 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="project-div">
-        <a href='https://my-food-blog-410.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-        <h4 className="project-title" >MyFoodBlog</h4>
-        {/* <h2>! Under Construction !</h2> */}
-        </a>
-        <p className="project_p">
-          MyFoodBlog is a personal application for a user to track homemade
-          dishes they create. They can keep track of the recipe,
-          ingredients, a name, and even have an image for plating ideas.
-          <br/>
-          <br/>
-
-          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and express. In extension to the project requirements I learned how to apply user authentication using Bcrypt and how to upload an image using Multer  skills. Currently the user authentication is bypassed for use-ability of the application.</span>
-        </p>
-        <div className="project-img-container">
-          <img className="project-img" src="https://github.com/christian-fortin/SEIR_Project_2/raw/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.50%20AM.png?raw=true" alt="foodblog" />
-        </div>
-      </div>
-
-
-      <div className="project-div">
-        <a
-          href="https://immense-falls-65855.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          alt="link to website"
-        >
-          <h4 className="project-title">WhatIsThis?</h4>
-        </a>
-        <p className="project_p">
-
-          <span className="project-title-in-p"> "WhatIsThis?" </span> is
-          meant for randomness, entertainment and sharing. It is inspired by
-          the website "stumbleUpon" which let you click a button and you
-          were taken to a random website. I wanted to recreate that, however
-          with a more social media feel and where users can create their
-          own.
-          <br/>
-          <br/>
-
-          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting. To enter the application use: <strong>User:</strong> 123@gmail.com, <strong>Password:</strong> 123</span>
-        </p>
-        <div className="project-img-container">
-          <img
-            className="project-img"
-            src="https://github.com/christian-fortin/Project_4/raw/main/public/Screen%20Shot%202022-04-06%20at%2010.14.27%20AM.png?raw=true"
-            alt="whatIsThis"
-          />
-        </div>
-      </div>
-
-
-
 
 
       <div className="project-div">
@@ -118,6 +65,61 @@ const Projects = () => {
           />
         </div>
       </div>
+
+     
+      <div className="project-div">
+        <a
+          href="https://immense-falls-65855.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          alt="link to website"
+        >
+          <h4 className="project-title">WhatIsThis?</h4>
+        </a>
+        <p className="project_p">
+
+          <span className="project-title-in-p"> "WhatIsThis?" </span> is
+          meant for randomness, entertainment and sharing. It is inspired by
+          the website "stumbleUpon" which let you click a button and you
+          were taken to a random website. I wanted to recreate that, however
+          with a more social media feel and where users can create their
+          own.
+          <br/>
+          <br/>
+
+          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and Express. In extension to the project requirements I learned more about how to apply user authentication using Bcrypt, improved my clean code skills and my JavaScript logic while building something I thought interesting. To enter the application use: <strong>User:</strong> 123@gmail.com, <strong>Password:</strong> 123</span>
+        </p>
+        <div className="project-img-container">
+          <img
+            className="project-img"
+            src="https://github.com/christian-fortin/Project_4/blob/main/public/whatIsThisGifGood.gif?raw=true"
+            alt="whatIsThis"
+          />
+        </div>
+      </div>
+
+      <div className="project-div">
+        <a href='https://my-food-blog-410.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+        <h4 className="project-title" >MyFoodBlog</h4>
+        {/* <h2>! Under Construction !</h2> */}
+        </a>
+        <p className="project_p">
+          MyFoodBlog is a personal application for a user to track homemade
+          dishes they create. They can keep track of the recipe,
+          ingredients, a name, and even have an image for plating ideas.
+          <br/>
+          <br/>
+
+          <span className='indent'>This project was meant to test my JavaScript, HTML, CSS, as well as designing an API with RESTful routes and a back-end using MongoDB, and express. In extension to the project requirements I learned how to apply user authentication using Bcrypt and how to upload an image using Multer  skills. Currently the user authentication is bypassed for use-ability of the application.</span>
+        </p>
+        <div className="project-img-container">
+          <img className="project-img" src="https://github.com/christian-fortin/SEIR_Project_2/raw/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.50%20AM.png?raw=true" alt="foodblog" />
+        </div>
+      </div>
+
+
+
+
       <div className="gif-holder">
         <a href="https://farm.one/" target="_blank" rel="noopener noreferrer">
           <img

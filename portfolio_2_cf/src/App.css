@@ -1023,7 +1023,7 @@ color: #333;
 
 
 
-@media (max-width: 1165px) {
+@media (max-width: 1000000px) {
 
   .ContainerEducation{
     display: none;
@@ -1062,7 +1062,7 @@ color: #333;
 }
 
 
-@media (min-width: 1165px) {
+@media (min-width: 1000000px) {
   .columContainerEducation-single-colum{
      display: none;
      flex-direction: column;
