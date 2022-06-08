@@ -8,7 +8,7 @@ const Home = () => {
 
 
 
-    <div className="box-work"><a href="https://docs.google.com/document/d/1-TK6B6LmP3zYMHRB08BHtF36oHlUjOmF-CFiMHY7oQk/edit" target="_blank" rel="noopener noreferrer" className='homeLinks' id='resumeLink-home'>Resume</a></div>
+    <div className="box-work"><a href="https://docs.google.com/document/d/1am7yrmFS2xKUpgKCSsJIN4jsJ7BOtdXHo-knF5i3sx4/edit" target="_blank" rel="noopener noreferrer" className='homeLinks' id='resumeLink-home'>Resume</a></div>
 
 
 
