@@ -1,11 +1,13 @@
 import React from 'react'
+import { Route, Routes, Link } from 'react-router-dom';
 
 const MoreProjects = () => {
   return (
  
     <div className="projects_container">
-    <h1 className="projects-header"> <a   className="projects-header" href="https://github.com/christian-fortin?tab=repositories" target="_blank" rel="noopener noreferrer">Projects</a></h1>
-    <div className="projectList">
+    <Link to='/Projects'>
+    <h1 className="projects-header"> <a   className="projects-header" href="https://github.com/christian-fortin?tab=repositories" target="_blank" rel="noopener noreferrer">Projects</a></h1></Link>
+    <div className="projectList"> 
 
       <div className="project-div">
       <a
@@ -29,6 +31,31 @@ const MoreProjects = () => {
           />
         </div>
       </div>
+
+
+      <div className="project-div">
+      <a
+              href="https://github.com/christian-fortin/PongGame"
+              target="_blank"
+              rel="noopener noreferrer"
+              alt="link to website"
+              className="creativity-link-weirdcase"
+            >
+           
+          <h4 className="project-title">Pong Game</h4>
+        </a>
+        <p className="project_p">
+          <span className="project-title-in-p"> "Pong Game" </span> is a fun side project to teach me more about game mechanics using Python3 and Turtle. Follow the instructions in the README.md file to learn how to play the game on your computer.
+        </p>
+        <div>
+          <img
+          className="project-img-container-pongGame"
+            src="https://github.com/christian-fortin/PongGame/raw/main/pongGame.gif?raw=true"
+            alt="PongGame"
+          />
+        </div>
+      </div>
+
 
 
 
