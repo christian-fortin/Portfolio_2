@@ -913,6 +913,7 @@ color: #333;
   display: flex;
   width: 100vw;
   height: 100rem;
+  margin: 0 0 10rem 0;
 }
 
 #educationTitle{
@@ -1031,6 +1032,7 @@ color: #333;
  .columContainerEducation-single-colum{
     display: flex;
     flex-direction: column;
+    padding: 0 0 7rem 0;
   } 
 
  .highschoolDiv-education{
@@ -1066,6 +1068,7 @@ color: #333;
   .columContainerEducation-single-colum{
      display: none;
      flex-direction: column;
+     padding: 0 0 10rem 0;
    } 
  
   .highschoolDiv-education{

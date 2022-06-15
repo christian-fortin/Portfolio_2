@@ -179,8 +179,7 @@ const Education = () => {
                   </a>
                 </span>
                 - A liberal arts University in the heart of downtown Manhattan,
-                where I graduate with a Bachelors of Science in Biology and a
-                3.48
+                where I graduate with a Bachelors of Science in 
                 <span>
                   <a
                     href="https://smashthewalls.com/"
@@ -188,7 +187,7 @@ const Education = () => {
                     rel="noopener noreferrer"
                     className="random_insert"
                   >
-                    GPA
+                   &nbsp; Biology
                   </a>
                 </span>
                 . There I was mainly focused on plant biology, but enjoyed human
